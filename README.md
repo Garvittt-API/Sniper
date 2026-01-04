@@ -13,7 +13,7 @@
 
 
 ## Basic Usage
-1) Build the program from source or download a pre-built version for your OS & Arch from [releases](https://github.com/foxzsz/discord-vanity-sniper-GO/releases)
+1) Build the program from source or download a pre-built version for your OS & Arch from [releases](https://github.com/Garvittt-API/Sniper/releases)
 2) Open the input folder
 2) Configure your "config.yml" file ( webhook, guildid, amplify and token)
 3) Add your proxies to the "proxies.txt" file
@@ -24,7 +24,7 @@
 ## How to build from source
 1) Download and install [Golang](https://go.dev/) and verify your installation
 2) Open a terminal window/ command prompt in the directory of the source code and type `go build`
-3) A binary compatible with your OS/Arch should be made. If there are some problems on MacOS/Linux with executing the binary as a program. You can run this command `chmod +x ./discord-vanity-sniper-GO` or go to properties -> permissions -> Allow executing file as program. 
+3) A binary compatible with your OS/Arch should be made. If there are some problems on MacOS/Linux with executing the binary as a program. You can run this command `chmod +x ./Sniper` or go to properties -> permissions -> Allow executing file as program. 
 
 
 ## Configuration
@@ -37,6 +37,3 @@
 | `guildid` | Guildid of server which has access to the vanity feature
 | `usesockets` | It is recommended to leave this option disabled unless you know how the code works, as it is currently experimental
 | `socketchannels` | Amount of socket channels, ignore this if you are not using the usesockets option
-
-## Credits
-[Vanshaj](https://github.com/V4NSH4J) Helped me improve on the code and gave great suggestions, also got the 'how to build from source' section from his github.
